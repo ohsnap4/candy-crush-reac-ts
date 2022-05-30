@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  height: 560px;
+  width: 560px;
+}
+.game img {
+  height: 70px;
+  width: 70px;
+  /* transition: all 0.2s ease-in-out; */
+  object-fit: cover;
+}
